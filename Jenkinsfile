@@ -11,6 +11,7 @@ pipeline {
                     echo "Hello World"
                     echo "This is my first Jenkins Pipeline"
                     echo "Learning Jenkins Pipeline"
+                    echo "Jenkins Pipeline is very easy"
                 '''
             }
         }
