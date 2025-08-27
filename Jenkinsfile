@@ -5,6 +5,13 @@ pipeline {
         stage('Build') { 
             steps {
                 echo 'Building..'
+                sh '''
+                  ls -ltr
+                  pwd
+                    echo "Hello World"
+                    echo "This is my first Jenkins Pipeline"
+                    echo "Learning Jenkins Pipeline"
+                '''
             }
         }
         stage('Test') { 
